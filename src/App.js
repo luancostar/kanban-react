@@ -9,7 +9,7 @@ export default function App() {
     <div className="App">
       <Navbar />
       <div>
-        <TaskList title="Pendente" />
+        <TaskList title={7 * 8} />
         <TaskList title="Fazendo" />
         <TaskList title="Completo" />
       </div>
